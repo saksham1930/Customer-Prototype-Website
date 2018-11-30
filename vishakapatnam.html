@@ -1,0 +1,84 @@
+<!DOCTYPEhtml>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css"  href="stylesheet.css">
+ 
+</head>
+
+<body>
+
+<div class="main">
+<header>
+ACE COMPUTER ENTERPRISES
+</header>
+    
+
+
+<p style="text-align:right" "margin:0px" "background color:pink" "color:black" "border-radius:5px" "padding:10px">
+     <a href="about us.html">About us </a>  &nbsp;&nbsp;
+
+     <a href="contacts us.html">Contact us </a>
+</p>
+
+<div class="sidenav">
+  <a href="home.html">Home</a>
+  <a href="hyderabad.html">Hyderabad</a>
+  <a href="vijayawada.html">Vijaywada</a>
+  <a href="vishakapatnam.html">Vishakapat</a>
+  <a href="mine.html">Calculations</a>
+    <a href="Join us.html" title="Join us">Join us </a>
+</div>
+</ul> 
+
+<br>
+<h3 style="font-size:40px">Visakhapatnam</h3>
+<p class=para4>Location:<br>Latitude:17.6868<br>Longhitude:83.2185</p>
+    <br></a>
+<br>
+<br>
+<br>
+
+
+   <div id="map"><br>
+      <br>
+      <br>
+    </div>
+    <p style="text-align: left;">
+      <style>
+      #map {
+        height: 400px;
+        width: 100%;
+</p>
+       }
+    </style> 
+   <script>
+function myMap() {
+  var mapCanvas = document.getElementById("map");
+  var myCenter = new google.maps.LatLng(17.6868, 83.2185); 
+  var mapOptions = {center: myCenter, zoom: 7};
+  var map = new google.maps.Map(mapCanvas,mapOptions);
+  var marker = new google.maps.Marker({
+    position: myCenter,
+    icon: "1.png"
+  });
+  var infoWindowOptions = {
+    content: 'Vishakapatanam Gas Plant<br>Gas Station<br>Location(17.6868, 83.2185)'
+};
+          
+  var infoWindow = new google.maps.InfoWindow(infoWindowOptions);
+google.maps.event.addListener(marker,'mouseover',function(e){
+  
+  infoWindow.open(map, marker);
+  
+});
+  
+  marker.setMap(map);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAsoiP3jgf2wiOoxLNaBLVYJ8xGEa2-290&callback=myMap"></script> 
+
+<footer> <b><u>Contact us</b></u> <br> E-mail:sakshamjaipur@gmail.com<br> Phone Number: 8003620399</footer>
+</body>
+</html>
+

@@ -1,0 +1,133 @@
+
+<!DOCTYPEhtml>
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css"  href="stylesheet.css">
+
+
+   
+</head>
+
+<body>
+
+<div class="main">
+<header>
+ACE COMPUTER ENTERPRISES
+</header>    
+<p style="text-align:right" "margin:0px" "background color:pink" "color:black" "border-radius:5px" "padding:10px">
+     <a href="about us.html">About us </a>  &nbsp;&nbsp;
+     <a href="contacts us.html">Contact us </a>
+</p>
+<div class="sidenav">
+  <a href="home.html">Home</a>
+  <a href="hyderabad.html">Hyderabad</a>
+  <a href="vijayawada.html">Vijaywada</a>
+  <a href="vishakapatnam.html">Vishakapat</a>
+    <a href="mine.html">Calculations</a>
+	  <a href="Join us.html" title="Join us">Join us </a>
+</div>
+<h2 style="font-size:40px">HOME</h2>
+<p class="para1"> <a name="Home">Pipelines are typically the cheapest, and in some cases quickest, way to move crude in the U.S., and they spill less often than other transport methods. In 2014, pipelines delivered 3.4 billion barrels of crude oil to U.S. refineries, according to Energy Information Administration data. The Association of Oil Pipe Lines says it has a 99.999% safe-delivery rate on these shipments. “On an apples-to-apples basis, pipelines have less accidents, cause less environmental damage and cause less harm to human health than do railcars moving comparable masses of oil and gas,” says Mr. Green. (The Energy Information Administration figures are based on U.S. refinery receipts of crude cargo. But crude shipments often combine several modes of transportation, so the numbers don’t give a complete picture.)
+The industry seems to be banking on pipelines as the go-to transport of the future. Pipeline projects have added more than 3 million barrels a day of capacity since 2012, although construction has slowed recently.
+</a> 
+</p> 
+<div class="mainForMaps" id="googleMap" style="width:85%;height:400px;"></div>
+ 
+<script>
+ 
+ 
+    function myMap() {
+        var mapProp= {
+            center:new google.maps.LatLng(17.2206315,80.6542347),
+            zoom:5,
+        };
+        var contentString = '<div id="content">'+
+        '<div id="siteNotice">'+
+        '</div>'+
+        '<h1 id="firstHeading" class="firstHeading">Uluru</h1>'+
+        '<div id="bodyContent">'+
+        '<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
+        'sandstone rock formation in the southern part of the '+
+        'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) '+
+        'south west of the nearest large town, Alice Springs; 450&#160;km '+
+        '(280&#160;mi) by road. Kata Tjuta and Uluru are the two major '+
+        'features of the Uluru - Kata Tjuta National Park. Uluru is '+
+        'sacred to the Pitjantjatjara and Yankunytjatjara, the '+
+        'Aboriginal people of the area. It has many springs, waterholes, '+
+        'rock caves and ancient paintings. Uluru is listed as a World '+
+        'Heritage Site.</p>'+
+        '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
+        'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
+        '(last visited June 22, 2009).</p>'+
+        '</div>'+
+        '</div>';
+        var map =new google.maps.Map(document.getElementById("googleMap"),mapProp);
+ 
+        var marker = new google.maps.Marker({
+            position:{lat:17.4126274,lng:78.2679578},
+            map:map,
+            title:"Hyderabad",
+            icon:"Oilwell3.png",
+            animation: google.maps.Animation.BOUNCE
+        });
+        // var infowindow= new google.maps.InfoWindow ({
+        //     content: "Hyderabad"
+        // });
+        // infowindow.open(map,marker);
+ 
+        var marker = new google.maps.Marker({
+            position:{lat:16.5103177,lng:80.5744204},
+            map:map,
+            icon:"Oilwell2.png",
+            animation: google.maps.Animation.BOUNCE,
+            
+        });
+
+            
+        
+      
+ 
+        var marker = new google.maps.Marker({
+            position:{lat:17.7389495,lng:83.1225035},
+            map:map,
+            icon:"Oilwell1.png",
+            animation: google.maps.Animation.BOUNCE,
+        });
+    }
+ 
+</script>
+ 
+<script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOme7cftIjs3m8G5UfvsxqbkC6fesXgeg&callback=myMap">
+</script>
+<p>About us:</p>
+<button class="collapsible">About Our Refiniries </button>
+<div class="content">
+  <p>Vega Oils continues to set up state-of-the-art refineries across the country to meet the growing demand for petroleum products. As on 31st March 2018, the Company owns 11 (including two of its subsidiary) of India's 23 refineries with a combined refining capacity of 80.70 MMTPA, accounting for 33% of domestic refining capacity. 
+
+Vega Oilsprocessed 16 new grades of crude oil during 2017- 18, of which 11 were of US origin, in a continuing bid to expand and diversify its sources for imports. Processing of cheaper, heavy & high-TAN as well as high-sulphur grades of crude oil was stepped up for better refining margins. 
+
+The year 2017-18 marked the commencement of superior BS-VI grade auto fuel supplies from the Company's Mathura and Panipat refineries to the National Capital Territory two years ahead of the scheduled launch across the country by 1st April 2020..</p>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+<footer> <b><u>Contact us</b></u> <br> E-mail:sakshamjaipur@gmail.com<br> Phone Number: 8003620399</footer>
+</body>
+</html>
+

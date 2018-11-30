@@ -1,0 +1,228 @@
+ ul {
+list-style: none;
+
+}
+
+ul a
+
+{
+text-decoration:none;
+font-family:calibri;
+background-color:brown;
+color:brown;
+border: 2px solid red;
+text-align:center;
+border-radius:5px ;
+margin :20px;
+padding:10px;
+}
+ul li a 
+{
+text-decoration:none;
+font-family:calibri;
+background-color: pink;
+color:black;
+border: 2px solid red;
+text-align:center;
+border-radius:5px ;
+margin :20px;
+padding:10px;
+}
+
+p.para0
+{ 
+color:WHITE;
+font-size: 30px;
+font-family: calibri;
+padding: 20px;
+border: 6px solid orange;
+border-radius:5px ;
+}
+p.para1
+{ 
+color:WHITE;
+font-size: 30px;
+font-family: calibri;
+padding: 20px;
+border: 6px solid orange;
+border-radius:5px ;
+}
+
+p.para4
+{ color:WHITE;
+font-size: 30px;
+font-family: calibri;
+padding: 20px;
+border: 6px solid orange;
+border-radius:5px ;
+}
+p.para2
+{ 
+color:WHITE;
+font-size: 30px;
+font-family: calibri;
+padding: 20px;
+border: 6px solid orange;
+border-radius:5px ;}
+p.para3
+{ 
+color:WHITE;
+font-size: 30px;
+font-family: calibri;
+padding: 20px;
+border: 6px solid orange;
+border-radius:5px ;
+}
+
+.uma
+{
+
+float: left ;
+background-color:white;
+width: 355px;
+height:200px;
+}
+header
+{
+ padding: 3.3em;
+    font-size: 40px;
+    color: black;
+    background-image:url(luke-chesser-2347.jpg);
+    background-color: white;
+    clear: left;
+    text-align: center;
+    border: 10px black ridge;
+    margin: 0px;
+}
+#main
+{
+background-color:black;
+border-radius: 5px;
+color:white;
+font-size:20px;
+padding: 10px;
+margin:10px;
+}
+body
+{
+background-image : url (uma.jpeg);
+
+
+}
+ p.po
+{
+
+font-size:22px;
+
+} 
+
+header
+{
+background-image:url(luke-chesser-2347.jpg)
+}
+body
+{
+background-image:url(luke-chesser-2347.jpg)
+}
+h1, h2, h3, h4, h5
+{ 
+color:brown;
+font-family:arial;
+} 
+p.para0, p.para1, p.para2, p.para3, p.para4, p.para6
+{
+background-image:url(6909249-black-hd-background.JPG)
+}
+p.para6
+{
+
+color: white;
+font-size: 40px;
+font-style: italic;
+border-width: 5 px;
+border- style: dotted;
+text-align: center;
+margin 0px 100px 100px 100px;
+}
+
+a:link, a:visited {
+text-decoration:none;
+font-family:calibri;
+background-color: pink;
+color:balck;
+border: 2px solid red;
+text-align:center;
+border-radius:5px ;
+margin :20px;
+padding:10px;
+
+}
+ footer {
+    padding: 1em;
+    color: black;
+    background-color:white;
+    clear: left;
+    text-align: center;
+font-size: 20px;
+}
+#map 
+{
+height:100%;
+margin: 0px;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+ .collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+}
